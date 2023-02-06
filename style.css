@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.fly {
+    position: absolute;
+    right: 40px;
+    bottom: 45px;
+}
+
+.fly_block {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+.fly_block>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.fly_block>span {
+    display: block;
+}
+
+body {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.navigation>nav {
+    height: 90px;
+    background: #181818;
+    padding: 0 140px 0 152px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 340px;
+}
+
+.navigation>nav>img {
+    display: block;
+    height: 31px;
+    width: 128px;   
+}
+
+.navigation>nav>.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.navigation>nav>.info>div {
+    height:20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.navigation>nav>.info>#business {
+    margin-right: 24px;
+}
+
+.navigation>nav>.info>button {
+    width: 155px;
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+}
+
+.studio {
+    height: 716px;
+    background: url("images/studio.png") center center/cover no-repeat;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 466px;
+    position: relative;
+}
+
+.studio>.abv {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+
+.studio>.studio_name {
+    font-size: 54px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.studio>.studio_desc {
+    width: 580px;
+    height: 80px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #C0C0C0;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.job {
+    height: 1556px;
+    background: #000000;
+    padding: 113px 136px 100px 136px;
+}
+
+.job>.big_text {
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.job>.small_text {
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-top: 15px;
+}
+
+.job>.four {
+    margin-top: 42px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.job>.four>.element {
+    width: 576px;
+    height: 600px;
+    padding: 420px 45px 0px 30px;
+}
+
+.job>.four>.element>.name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.job>.four>.element>.text {
+    margin-top: 10px;
+    height: 80px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.phone {
+    background: url("images/phone.png") center center/cover no-repeat;
+}
+
+.architecture {
+    background: url("images/arc.png") center center/cover no-repeat;
+}
+
+.trees {
+    background: url("images/trees.png") center center/cover no-repeat;
+}
+
+.deer {
+    background: url("images/deer.png") center center/cover no-repeat;
+}
+
+.read_more {
+    margin-top: 17px;
+    width: 143px;
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.read_more>div {
+    width: 32px;
+    height: 32px;
+    background:#000000;
+    border-radius: 12px;
+}
+
+.read_more>span {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    width: 91px;
+    height: 20px;
+}
+
+.mount {
+    height: 600px;
+    background: url("images/Fuji.png") center center/cover no-repeat;
+    position: relative;
+    padding: 260px 62px 260px 1080px;
+}
+
+.mount>.fuji, .monstera, .star_main {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.mount>.desc, .desc_monstera, .star_desc {
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.tools {
+    height: 540px;
+    background: #000000;
+    position: relative;
+    padding-top: 173px;
+    padding-left: 100px;
+}
+
+.check {
+    width: 152px;
+    height: 42px;
+}
+
+.check>span {
+    width: 100px;
+}
+
+.tools>.text1 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+
+.tools>.text2 {
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 6px;
+}
+
+.tools>.text3 {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 14px;
+    width: 514px;
+}
+
+.photoapp {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.leaves {
+    height: 600px;
+    background: url("images/leaves.png") center center/cover no-repeat;
+    position: relative;
+    padding: 260px 87px 260px 1080px;
+}
+
+.clients {
+    height: 500px;
+    background:#000000;
+    padding: 140px 182px;
+}
+
+.clients>.text1 {
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.clients>.text2 {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-top: 15px;
+}
+
+.clients>.logotypes {
+    height: 158px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 42px;
+}
+
+.clients>.logotypes>.img {
+    display: inline-block;
+}
+
+.star {
+    height: 600px;
+    background: url("images/sky.png") center center/cover no-repeat;
+    position: relative;
+    padding: 250px 106px 0 1080px;
+}
+
+.star_desc {
+    width: 241px;
+}
+
+.help {
+    height: 414px;
+    background:#000000;
+    padding: 113px 435px;
+}
+
+.help>.text1 {
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.help>.text2 {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-top: 15px;
+}
+
+.get {
+    margin: 0 auto;
+    margin-top: 31px;
+}
+
+.contact {
+    height: 652px;
+    background:#000000;
+    padding: 100px 136px;
+}
+
+.top {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.top>.block1 {
+    width: 440px;
+    margin-right: 270px;
+}
+
+.top>.block1>img {
+    display: block;
+}
+
+.top>.block1>div {
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.top>.block2>.big, .top>.block3>.big {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+
+.top>.block2>div {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.top>.block2 {
+    width: 182px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 55px;
+}
+
+.top>.block3 {
+    width: 119px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top>.block3>div {
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.pseudo_line {
+    margin-top: 36px;
+    width: 1168px;
+    height: 2px;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 36px;
+}
+
+.sub_text>.big {
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.sub_text>.another_size {
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.white {
+    width: 458px;
+    height: 52px;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    position: relative;
+}
+
+.white>.black {
+    width: 63px;
+    height: 30px;
+    background: #000000;
+    border-radius: 11px;
+    position: absolute;
+    right: 11px;
+    top: 11px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-top: 56px;
+}
+
+.bottom>.left {
+    display: flex;
+    gap: 5px;
+}
+
+.bottom>.left>.big {
+    font-size: 14px;
+}
+
+.bottom>.left>.small {
+    font-size: 13px;
+}
+
+.bottom>.right {
+    display: flex;
+    gap: 20px;
+}
